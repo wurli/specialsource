@@ -1,0 +1,3 @@
+list(x = structure(list(file = "<text>", line = 5L, tag = "tip", 
+    raw = "You can compute means of dates and date-times!", val = NULL), class = c("roxy_tag_tip", 
+"roxy_tag")))
