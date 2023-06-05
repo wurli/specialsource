@@ -44,10 +44,7 @@ f <- function(x, y) {
 }
 "
 
-block <- roxygen2::parse_text(text)[[1]]
-topic <- roxygen2::roc_proc_text(roxygen2::rd_roclet(), text)[[1]]
-
-topic
+roxygen2::roc_proc_text(roxygen2::rd_roclet(), text)
 ```
 
 # Why?
